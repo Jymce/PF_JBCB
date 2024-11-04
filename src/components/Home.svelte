@@ -58,7 +58,7 @@
   @media (max-width: 650px) {
     .home-container {
       display: flex;
-      justify-content: space-between; /* Space between image and text */
+      flex-direction: column;
       align-items: center;
       height: 100vh;
       padding: 2rem; /* Reduce padding for mobile */
@@ -69,11 +69,13 @@
       height: auto;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+      margin-bottom: 1rem;
     }
 
     .text-container {
-      text-align: left; /* Align text to the left */
-      padding-right: 2rem; /* Increase padding for better spacing */
+      text-align: center; /* Align text to the left */
+      padding-right: 0; /* Increase padding for better spacing */
+      padding-bottom: 15px;
     }
 
     .title {

@@ -10,6 +10,8 @@
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
+      //Close the menu after clicking a link
+      isMenuOpen = false
     };
   </script>
   

@@ -122,7 +122,7 @@
   
       .nav {
         position: fixed;
-        top: 60px; /* Adjust based on header height */
+        top: 50px; /* Adjust based on header height */
         left: 0;
         width: 100%;
         background-color: #1E201E; /* Dark background */

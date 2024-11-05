@@ -37,6 +37,9 @@
             <a href="#skills" on:click={() => scrollToSection('skills')}>Skills</a>
           </li>
           <li>
+            <a href="#Projects" on:click={() => scrollToSection('Projects')}>Projects</a>
+          </li>
+          <li>
             <a href="#contact" on:click={() => scrollToSection('contact')}>Contact</a>
           </li>
         </ul>
@@ -147,7 +150,7 @@
         top: -3px; /* Adjust top position based on header height */
         right: 2rem; /* Position the menu to the right of the menu-toggle */
         width: 150px; /* Square box width */
-        height: 150px; /* Square box height */
+        height: 170px; /* Square box height */
         background-color: #262626;
         padding: 1rem;
         border-radius: 8px;

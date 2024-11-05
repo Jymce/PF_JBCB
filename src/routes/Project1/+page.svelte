@@ -177,5 +177,8 @@
     .project-description {
       max-width: 90%; /* Make description wider for mobile */
     }
+    .container{
+      max-width: 450px;
+    }
   }
 </style>

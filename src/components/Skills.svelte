@@ -2,7 +2,7 @@
   const skills = [
     {
       name: "Python",
-      description: "Proficient in Python for various programming tasks, including data analysis, web development, and machine learning.",
+      description: "Proficient in Python for  web development.",
       image: "image/PYTHON.png" 
     },
     {

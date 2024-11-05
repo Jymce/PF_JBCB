@@ -178,7 +178,7 @@
       max-width: 90%; /* Make description wider for mobile */
     }
     .container{
-      max-width: 450px;
+      max-width: 400px;
     }
   }
 </style>

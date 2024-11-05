@@ -95,5 +95,9 @@
     .project-description {
       max-width: 90%; /* Make description wider for mobile */
     }
+
+    .projects-header{
+      font-size: 3.5rem;
+    }
   }
 </style>

@@ -131,7 +131,7 @@
     }
 
     .skill-item {
-      width: 70%; /* Adjust width as needed */
+      width: 90%; /* Adjust width as needed */
       margin: 0 auto; /* Center the skill item */
     }
 

@@ -20,36 +20,42 @@
   </div>
 
   <div class="project-content">
+    <h2> Login Page</h2>
     <img src="Project1_Files\Login.png" alt="Login Page" class="project-image" />
     <div class="project-description">
       <p>This is the Login page of SariStock, enabling users to access the system's full capabilities.</p>
     </div>
   </div>
   <div class="project-content">
+    <h2> Home Page</h2>
     <img src="Project1_Files\Home.png" alt="Home Page" class="project-image" />
     <div class="project-description">
       <p>This is the Home page of SariStock, which lets users utilize its capabilities.</p>
     </div>
   </div>
   <div class="project-content">
+    <h2> Manage Product Page</h2>
     <img src="Project1_Files\Products.png" alt="Manage Product Page" class="project-image" />
     <div class="project-description">
       <p>This is the Manage Product Page of SariStock, where users can register products into the system.</p>
     </div>
   </div>
   <div class="project-content">
+    <h2> Transaction Page</h2>
     <img src="Project1_Files\Cart.png" alt="Transaction Page" class="project-image" />
     <div class="project-description">
       <p>This is the Transaction Page of SariStock, where product transactions and deductions from the database occur.</p>
     </div>
   </div>
   <div class="project-content">
+    <h2> Sales Record Page</h2>
     <img src="Project1_Files\Sales.png" alt="Sales Record Page" class="project-image" />
     <div class="project-description">
       <p>This is the Sales Record Page of SariStock, accessible only to administrators.</p>
     </div>
   </div>
   <div class="project-content">
+    <h2> Database</h2>
     <img src="Project1_Files\Database.png" alt="Database Design" class="project-image" />
     <div class="project-description">
       <p>And finally, this is the database design of SariStock.</p>
@@ -87,12 +93,17 @@
     margin-bottom: 2rem;
   }
 
+  .project-content h2{
+    margin-bottom: 10px;
+    font-size: xx-large;
+  }
+
   .project-image.logo {
     width: 250px;
   }
 
   .project-image {
-    width: 300px;
+    width: 500px;
     height: auto;
     margin-bottom: 1rem;
     border-radius: 3px;
@@ -170,6 +181,9 @@
       align-items: center; /* Center items within the column */
     }
 
+    .project-content h2{
+      font-size: x-large;
+    }
     .project-image {
       width: 250px; /* Adjust image width for mobile */
     }

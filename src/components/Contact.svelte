@@ -1,8 +1,7 @@
 <script>
     import { onMount } from 'svelte';
 
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxJOPwiN2LBZ0qEnD64LRBN4fmFi7lyv5rvisvLoceCUHv98nrXY7q1wkhx1ePQM9Z6/exec';
-
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyEK8WaNa6NgHvTsSrQ65NxYfl0Yv0w31cf2EgQe812UYojFRHrjKkzHD70Ptxvhvu-/exec';
     let form, dialogOverlay, loadingBox, successBox, submitButton, textarea, emailInput, nameInput, msgSpan;
 
     // List of allowed email domains
@@ -40,8 +39,8 @@
 
         // Message length validation (minimum 10, maximum 500 characters)
         const message = textarea.value.trim();
-        if (message.length < 10) {
-            msgSpan.textContent = "Message must be 10 minimum characters.";
+        if (message.length < 5) {
+            msgSpan.textContent = "Message must be 5 minimum characters.";
             msgSpan.style.color = "red";
             setTimeout(() => (msgSpan.textContent = ""), 3000);
             return;

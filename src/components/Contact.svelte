@@ -89,8 +89,8 @@
     <div class="content-container">
         <div class="contact-left">
             <h1 class="contact-heading">Get in Touch</h1>
-            <p><i class="fa-solid fa-paper-plane"></i> jymcebrian@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i> 0999 763 2457</p>
+            <i class="fa-solid fa-paper-plane"></i><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRdnhwvjTFSlkHRpzrkFVbxsLtxhXgNlKmmXTntkJLfHVZXcZzgGNtCfPSHlZqXMvZZZDt" target="_blank" class="gmail_anchor">   jymcebrian@gmail.com</a>
+            <p><i class="fa-solid fa-phone"></i>  0999 763 2457</p>
             <div class="social-icons">
                 <a href="https://www.facebook.com/jymce.bertillo/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                 <a href="https://x.com/JBCB32446518" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
@@ -152,12 +152,26 @@
         text-align: left;
     }
 
-    .contact-left p {
+    .gmail_anchor {
         margin: 0.5rem 0;
         color: #ECDFCC;
-        font-size: 1.2rem;
+        font-size: 0.96rem;
+        padding-bottom: 100px;
     }
 
+    .fa-solid {
+        padding-right: 1px;
+    }
+
+    .contact-left p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 1rem;
+        font-size: 0.96rem;
+    }
+    .social-icons{
+        padding-top: 5px;
+    }
     .social-icons a {
         color: #ECDFCC;
         font-size: 1.8rem;
@@ -253,7 +267,9 @@
         width: 300px;
         opacity: 80%;
     }
-
+    .fa-solid.fa-paper-plane{
+        padding-right: 5px;
+    }
     /* Media Query for Mobile (650px and below) */
     @media (max-width: 650px) {
         .content-container {

@@ -4,11 +4,13 @@
 
   <div class="home-container">
     <div class="text-container">
-      <h2 class="title">BSCS UNDERGRAD</h2>
+      <h2 class="title">BSCS UNDERGRADUATE</h2>
       <p class="greeting">Hi, I'm <span class="accent">Jymce</span></p>
     </div>
-    <img src="image/background.png" alt="Jymce Bertillo Photo" title="Jymce Bertillo Photo" class="profile-picture" />
-  </div>
+    <div class="image_holder">
+      <img src="image/background.png" alt="Jymce Bertillo Photo" title="Jymce Bertillo Photo" class="profile-picture" />
+    </div>
+    </div>
 
 
 
@@ -26,8 +28,11 @@
     width: 100%;
   }
 
+  .image_holder{
+    padding-right: 1rem;
+  }
   .profile-picture {
-    width: 310px;
+    width: 290px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
@@ -35,11 +40,11 @@
 
   .text-container {
     text-align: left; /* Align text to the left */
-    padding-right: 4rem; /* Increase padding for better spacing */
+    padding: 1rem; /* Increase padding for better spacing */
   }
 
   .title {
-    font-size: 2.5rem; /* Make the title slightly larger */
+    font-size: 2rem; /* Make the title slightly larger */
     font-weight: bold;
     margin-bottom: 1rem;
     text-transform: uppercase; /* Capitalize the title */

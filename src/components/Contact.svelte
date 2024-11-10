@@ -96,7 +96,7 @@
                 <a href="https://x.com/JBCB32446518" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
                 <a href="https://www.instagram.com/jymceeee/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="/MyInfo/Bertillo Information.pdf" download class="btn btn-download">Download My Info</a>
+            <a href="/MyInfo/Bertillo CV.pdf" download class="btn btn-download">Download CV</a>
         </div>
         <div class="contact-right">
             <form bind:this={form} name="submit-to-google-sheet" on:submit={handleSubmit}>

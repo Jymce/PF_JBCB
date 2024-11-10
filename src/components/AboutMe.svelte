@@ -47,7 +47,7 @@
         <img src="image/aboutme.jpeg" alt="Jymce Bertillo Photo" title="Jymce Bertillo Photo" />
       </div>
       <div class="info-container">
-        <p>I am Jymce Brian C. Bertillo, currently I am a bonified student at CvSU - Bacoor
+        <p>I am Jymce Brian C. Bertillo, a bonified student at CvSU - Bacoor
           taking Bachelor of Science in Computer Science. And as a 3rd year CS student
           I am glad to be part of this academic year that would embark to another whole
           new journey</p>
@@ -107,7 +107,7 @@
 }
 
 .about-me-heading {
-  font-size: 4rem; /* Adjust font size as needed */
+  font-size: 3.5rem; /* Adjust font size as needed */
   margin-bottom: 15px;
 }
 

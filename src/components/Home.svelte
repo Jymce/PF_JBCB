@@ -36,8 +36,22 @@
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    animation: float 2s ease-in-out infinite;
   }
 
+  @keyframes float {
+    0% {
+      transform: translateY(0px); /* Start position */
+    }
+    50% {
+      transform: translateY(-10px); /* Move up slightly */
+    }
+    100% {
+      transform: translateY(0px); /* Back to start position */
+    }
+  }
+
+  
   .text-container {
     text-align: left; /* Align text to the left */
     padding: 1rem; /* Increase padding for better spacing */
